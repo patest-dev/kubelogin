@@ -12,7 +12,7 @@ Usage:
   kubelogin remove-cache-dir [flags]
 
 Flags:
-      --cache-dir string   directory to cache authentication record (default "/home/weinongw/.kube/cache/kubelogin/")
+      --cache-dir string   directory to cache authentication record (default "${HOME}/.kube/cache/kubelogin/")
   -h, --help               help for remove-cache-dir
 
 Global Flags:
