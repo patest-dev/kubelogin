@@ -13,7 +13,7 @@ Usage:
 
 Flags:
       --authority-host string                Workload Identity authority host. It may be specified in AZURE_AUTHORITY_HOST environment variable
-      --cache-dir string                     directory to cache authentication record (default "/home/weinongw/.kube/cache/kubelogin/")
+      --cache-dir string                     directory to cache authentication record (default "${HOME}/.kube/cache/kubelogin/")
       --client-certificate string            AAD client cert in pfx. Used in spn login. It may be specified in AAD_SERVICE_PRINCIPAL_CLIENT_CERTIFICATE or AZURE_CLIENT_CERTIFICATE_PATH environment variable
       --client-certificate-password string   Password for AAD client cert. Used in spn login. It may be specified in AAD_SERVICE_PRINCIPAL_CLIENT_CERTIFICATE_PASSWORD or AZURE_CLIENT_CERTIFICATE_PASSWORD environment variable
       --client-id string                     AAD client application ID. It may be specified in AAD_SERVICE_PRINCIPAL_CLIENT_ID or AZURE_CLIENT_ID environment variable
